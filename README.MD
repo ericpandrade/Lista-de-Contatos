@@ -5,7 +5,10 @@
 # CRUD Contacts
 
 <span style="font-family: 'Poppins', sans-serif;font-size:9pt">
-Criação de um CRUD (CREATE / READ / UPDATE / DELETE) com NodeJs para a realização de uma agenda de contatos. Nessa agenda de contatos é possível salvar o nome, o email e o telefone da pessoa e também é possível salvar a pessoa em uma categoria de contatos. <br/>
+Criação de um CRUD (CREATE / READ / UPDATE / DELETE) com NodeJs para a realização de uma agenda de contatos. Nessa agenda de contatos é possível salvar o nome, o email e o telefone da pessoa e também é possível salvar a pessoa em uma categoria de contatos. 
+  
+  <br/>
+  
 Por exemplo: O Pedro de número 85900000000 e e-mail pedro@teste.com está na categoria Família.
 
 <br />
