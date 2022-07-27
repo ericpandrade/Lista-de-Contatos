@@ -58,13 +58,15 @@ Climb the Docker to use the Postgres
 </span>
 
 ```bash
-  docker run --name pg -e POSTGRES_USER=root -e POSTGRES_PASSWORD=root -p 5432:5432 -d postgres
+  docker pull postgres # Install Docker
+
+  docker run --name pg -e POSTGRES_USER=root -e POSTGRES_PASSWORD=root -p 5432:5432 -d postgres # Climb the Docker
 ```
 
 ```bash
-  docker exec -it pg bash (To use the Bash)
+  docker exec -it pg bash # To use the Bash
 
-  psql -U root (To use the Postgres)
+  psql -U root # To use the Postgres
 ```
 
 And now you can use the /src/database/schema.sql to use the Schema to create the database and the tables.
@@ -76,8 +78,8 @@ Start the server
 </span>
 
 ```bash
-  npm run dev -> Start the server with NPM
-  yarn dev -> Start the server with YARN
+  npm run dev # Start the server with NPM
+  yarn dev # Start the server with YARN
 ```
 
 <br />
